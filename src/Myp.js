@@ -14,7 +14,7 @@ function MyRact() {
     return (
         <>
             <h1> mr Zaman</h1>
-            <h3>  Hi My name is Khan and I'mnot a Terrorist</h3>
+            <h3>  Hi My name is Khan and I'm not a Terrorist</h3>
         </>
     );
 }

@@ -1,14 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// import App from './App';
-import Myp from './Myp';
+import App from './App';
+// import Myp from './Myp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <>
 
-  <Myp />
-
+    <App />
+    {/* <Myp /> */}
+  </>
 );
+
+// App();
+
+// MyRact();
 
 
 // import React from 'react';

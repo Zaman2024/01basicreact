@@ -1,4 +1,4 @@
-
+import MyRact from "./Myp";
 
 function App() {
   return (
@@ -18,7 +18,10 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    <h1>My Name is Khan</h1>
+    <>
+      <MyRact />
+      <h1>My Name is Khan</h1>
+    </>
   );
 }
 
