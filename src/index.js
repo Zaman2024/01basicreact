@@ -3,8 +3,17 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 // import Myp from './Myp';
 
+// const myOwn = (
+//   <div>
+//     <h1>This is a paragraph</h1>
+//     <p>You are not required to use JSX, but JSX makes it easier to write React applications.</p>
+//   </div>
+// )
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  // myOwn
+
   <>
 
     <App />
