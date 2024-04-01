@@ -1,3 +1,4 @@
+import './App.css';
 import MyRact from "./Myp";
 
 function App() {
@@ -6,9 +7,13 @@ function App() {
     <>
       <MyRact />
       <h1>backgroundChanger</h1>
-      <div className={btns}>
-        
+      <h1 className="text-3xl font-bold text-red-500">
+      Hello world!
+    </h1>
+      <div className='p-5 border-2 border-black-500 m-10'>
+      <button className='btn bg-red-500 pl-5 pr-5'>Red</button>
       </div>
+     
     </>
   );
 }
