@@ -15,7 +15,6 @@ root.render(
   // myOwn
 
   <>
-
     <App />
     {/* <Myp /> */}
   </>
