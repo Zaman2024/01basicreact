@@ -13,12 +13,11 @@ import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  // myOwn
-
-  <>
-    <App />
-    {/* <Myp /> */}
-  </>
+ <App />
+  // <>
+  //   <App />
+  //   {/* <Myp /> */}
+  // </>
 );
 
 // App();

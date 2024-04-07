@@ -1,21 +1,16 @@
-import './App.css';
-import MyRact from "./Myp";
+import { useState } from 'react';
+// import './App.css';
+// import MyRact from "./Myp";
 
 function App() {
+
+    const [color, setColor] = useState("green");
+
   return (
-    
-    <>
-      <MyRact />
-      <h1>backgroundChanger</h1>
-      <h1 className="text-3xl font-bold text-red-500">
-      Hello world!
-    </h1>
-      <div className='p-5 border-2 border-black-500 m-10'>
-      <button className='btn bg-red-500 pl-5 pr-5'>Red</button>
+      <div className='w-full flex flex-wrap justify- p-1 border-2 border-black-500 mt-20 mb-0 ml-10 mr-10 rounded-lg '>
+      <button className='bg-red-500 pl-5 pr-5 pt-1 pb-1' onClick={()=> setColor("red")}>Red</button>
       </div>
-     
-    </>
-  );
+  )
 }
 
 export default App;
